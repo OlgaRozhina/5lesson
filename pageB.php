@@ -10,8 +10,6 @@
         setcookie('lastpage',"b",time()+3600); 
  //       session_start ();
 //        if (isset($_SESSION['login'])){
-            echo $_COOKIE['login']."<br>";
-//            echo $_COOKIE['password']."<br>";
 //            echo  $_SESSION['login']."<br>";
 //            echo  $_SESSION['password']."<br>";
 //        }
