@@ -12,7 +12,7 @@
         
         ?>
         
-        <a href="index.php">Main</a>
+        
         <a href="pageB.php">Page B</a> <br>
     </body>
 </html>

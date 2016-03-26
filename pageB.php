@@ -15,7 +15,7 @@
 //        }
    
         ?>
-        <a href="index.php">Main</a>
+        
         <a href="pageA.php">Page A</a> <br>
        
     </body>
