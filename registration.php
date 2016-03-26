@@ -42,11 +42,12 @@
         setcookie('login',"$log",time()+3600*24*7);    
         setcookie('password',"$pas",time()+3600*24*7);
         setcookie('checkbox',"$chb",time()+3600*24*7);
-        echo "$log , registration is successful";
         
+            header('Location: http://localhost/5lesson/index.php');
           }
         else {
-            echo "Sorry, you need registration";
+            echo "Sorry, but you need registration";
+            
         }
 	
         ?>
