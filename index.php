@@ -1,5 +1,5 @@
 <?php
-
+// проверяем есть ли регистрация у пользователя
     if ( isset($_COOKIE['login']) && isset($_COOKIE['password'])){
      
         
@@ -21,7 +21,7 @@
     }
         else { echo "" ;}    
     }
-   
+//  если нет регистрации, направлем на страницу регистарции
 else {   
 header('Location: http://localhost/5lesson/registration.php');
 }

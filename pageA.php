@@ -7,12 +7,11 @@
     <body>
         <h1>Page A</h1>
           <?php
+        // создаем cookie на страничку
          setcookie('lastpage','a',time() + 3600*24*7);
-       
-        
+              
         ?>
-        
-        
+            
         <a href="pageB.php">Page B</a> <br>
     </body>
 </html>

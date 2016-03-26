@@ -7,8 +7,10 @@
     <body>
         <h1>Page B</h1>
            <?php
+        // создаем cookie на страничку
         setcookie('lastpage',"b",time()+3600); 
- //       session_start ();
+        
+ //       session_start (); // проверка работы сессии
 //        if (isset($_SESSION['login'])){
 //            echo  $_SESSION['login']."<br>";
 //            echo  $_SESSION['password']."<br>";
