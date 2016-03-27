@@ -33,6 +33,15 @@ header('Location: http://localhost/5lesson/registration.php');
     <head>
         <title>Main</title>
         <meta charset="utf-8">
+         <link 
+			  type="text/css"
+			  rel="stylesheet"
+			  href="<?php  if( isset($_COOKIE["color"])){
+            echo $_COOKIE["color"];
+        }
+        else { echo "red"; /*   по умолчанию красная тема */
+             }  ?>.css">
+         
     </head>
 
     <body>
@@ -41,7 +50,8 @@ header('Location: http://localhost/5lesson/registration.php');
         <a href="pageA.php">Page A</a>
         <br>
         <a href="pageB.php">Page B</a>
-       
+       <br>
+       <a href="settings.php">setting</a>
 
 
 

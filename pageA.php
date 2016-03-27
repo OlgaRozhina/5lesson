@@ -3,6 +3,14 @@
     <head>
         <title>Page A</title>
         <meta charset="utf-8">
+        <link 
+			  type="text/css"
+			  rel="stylesheet"
+			  href="<?php  if( isset($_COOKIE["color"])){
+            echo $_COOKIE["color"];
+        }
+        else { echo "red"; /*   по умолчанию красная тема */
+             }  ?>.css">
     </head>
     <body>
         <h1>Page A</h1>
@@ -13,5 +21,6 @@
         ?>
             
         <a href="pageB.php">Page B</a> <br>
+         <a href="settings.php">setting</a>
     </body>
 </html>
