@@ -1,0 +1,19 @@
+
+body{
+    background-color: lightcyan;
+}
+
+
+h1,p {
+    color: blue;
+    font-family: fantasy;
+}
+h1 {
+     text-shadow: 2px 2px 2px black; /* Параметры тени */
+     text-align: center;
+    
+}
+
+a{ color: darkblue;
+    font-family: cursive;
+}

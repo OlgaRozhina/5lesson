@@ -1,0 +1,21 @@
+
+body{
+     background-image: radial-gradient(#fabcf5, #cfb396);
+     background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+h1,p {
+    color: red;
+    font-family: cursive;
+}
+h1 {
+     text-shadow: 2px 2px 2px black; /* Параметры тени */
+     text-align: center;
+    
+}
+
+a{ color: darkred;
+    font-family: cursive;
+}

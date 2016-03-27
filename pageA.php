@@ -21,7 +21,6 @@
         ?>
             
         <a href="pageB.php">Page B</a> <br>
-        <h2>You can change theme here</h2>
-         <a href="settings.php">Themes</a>
+         <p>You can change theme <a href="settings.php">here</a></p>
     </body>
 </html>

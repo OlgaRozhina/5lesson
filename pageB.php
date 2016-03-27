@@ -17,24 +17,11 @@
            <?php
         // создаем cookie на страничку
         setcookie('lastpage',"b",time()+3600); 
-        
-        
-        // проверяем есть ли сокраненая кука
-        if( isset($_COOKIE["color"])){
-            echo $_COOKIE["color"];
-        }
-        else { echo "";
-             }
- //       session_start (); // проверка работы сессии
-//        if (isset($_SESSION['login'])){
-//            echo  $_SESSION['login']."<br>";
-//            echo  $_SESSION['password']."<br>";
-//        }
+            
    
         ?>
         <br>
         <a href="pageA.php">Page A</a> <br>
-       <h2>You can change theme here</h2>
-         <a href="settings.php">Themes</a>
+       <p>You can change theme <a href="settings.php">here</a></p>
     </body>
 </html>

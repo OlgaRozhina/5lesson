@@ -3,7 +3,7 @@
     if ( isset($_COOKIE['login']) && isset($_COOKIE['password'])){
      
         
-         echo "Hello, ".$_COOKIE['login']."! now, you can choose a page."; echo "<br>";//  приветствуем пользователя
+         echo "<p> Hello, ".$_COOKIE['login']."! now, you can choose a page.</p>"; echo "<br>";//  приветствуем пользователя
         
 // проверяем  посещал ли  пользователь страницы
         if( isset($_COOKIE['lastpage'])) {
@@ -51,8 +51,8 @@ header('Location: http://localhost/5lesson/registration.php');
         <br>
         <a href="pageB.php">Page B</a>
        <br>
-       <h2>You can change theme here</h2>
-       <a href="settings.php">Themes</a>
+       <p>You can change theme <a href="settings.php">here</a></p>
+       
 
 
 

@@ -1,0 +1,24 @@
+
+body{
+/*    background-color: lightcyan;*/
+    background-image: linear-gradient(#a8ec80, #ffffcc, #008000);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    
+}
+
+
+h1,p {
+    color: green;
+    font-family: monospace;
+}
+h1 {
+     text-shadow: 2px 2px 2px black; 
+     text-align: center;
+     font-size: 35px;
+    
+}
+
+a{ color: darkgreen;
+    font-family: cursive;
+}
