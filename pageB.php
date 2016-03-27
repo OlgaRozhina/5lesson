@@ -6,7 +6,11 @@
         <link 
 			  type="text/css"
 			  rel="stylesheet"
-			  href="<?php  echo $_COOKIE["color"];  ?>.css">
+			  href="<?php  if( isset($_COOKIE["color"])){
+            echo $_COOKIE["color"];
+        }
+        else { echo "red"; /*   по умолчанию красная тема */
+             }  ?>.css">
     </head>
     <body>
         <h1>Page B</h1>
@@ -29,7 +33,7 @@
    
         ?>
         <br>
-<!--        <a href="pageA.php">Page A</a> <br>// СНЯТЬ КОММЕНТ--> 
+        <a href="pageA.php">Page A</a> <br>
        <a href="settings.php">setting</a>
     </body>
 </html>
