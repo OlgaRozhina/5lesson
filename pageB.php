@@ -34,6 +34,7 @@
         ?>
         <br>
         <a href="pageA.php">Page A</a> <br>
-       <a href="settings.php">setting</a>
+       <h2>You can change theme here</h2>
+         <a href="settings.php">Themes</a>
     </body>
 </html>

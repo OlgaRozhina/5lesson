@@ -51,7 +51,8 @@ header('Location: http://localhost/5lesson/registration.php');
         <br>
         <a href="pageB.php">Page B</a>
        <br>
-       <a href="settings.php">setting</a>
+       <h2>You can change theme here</h2>
+       <a href="settings.php">Themes</a>
 
 
 
